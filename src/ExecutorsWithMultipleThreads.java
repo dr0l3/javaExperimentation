@@ -30,6 +30,7 @@ public class ExecutorsWithMultipleThreads {
          *
          *  VERY IMPORTANT NOTE:
          *  The above only counts for thread.yield. If thread.sleep is used the second wrapper is starved!
+         *  However the first thread
          *
          *  It appears that the UNIREST win-client is sleep-based
          *
